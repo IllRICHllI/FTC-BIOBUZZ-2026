@@ -1,9 +1,14 @@
-package org.firstinspires.ftc.teamcode.opmodes;
+package org.firstinspires.ftc.teamcode.ExampleCode.util.opmodes;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import org.firstinspires.ftc.teamcode.subsystems.*;
-import org.firstinspires.ftc.teamcode.util.PIDFController;
+
+import org.firstinspires.ftc.teamcode.ExampleCode.util.subsystems.Feeder;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.subsystems.Intake;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.subsystems.MecanumDrive;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.subsystems.Shooter;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.subsystems.*;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.PIDFController;
 
 @Autonomous(name="AutoMain")
 public class AutoMain extends LinearOpMode {

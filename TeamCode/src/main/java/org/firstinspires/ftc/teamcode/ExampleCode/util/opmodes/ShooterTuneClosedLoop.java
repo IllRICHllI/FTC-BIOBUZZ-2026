@@ -1,9 +1,9 @@
-package org.firstinspires.ftc.teamcode.opmodes;
+package org.firstinspires.ftc.teamcode.ExampleCode.util.opmodes;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import org.firstinspires.ftc.teamcode.subsystems.Shooter;
-import org.firstinspires.ftc.teamcode.util.PIDFController;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.subsystems.Shooter;
+import org.firstinspires.ftc.teamcode.ExampleCode.util.PIDFController;
 
 @Autonomous(name="ShooterTuneClosedLoop", group="Tune")
 public class ShooterTuneClosedLoop extends LinearOpMode {
